@@ -11,4 +11,8 @@ def get_results(palabra):
         ascii_valor = get_ascii(caracter)
         binario = get_binary(caracter)
         resultados.append(f"ASCII character value of '{caracter}' is {ascii_valor}. Binary representation of '{caracter}' in a Byte is {binario}")
+    representacion_binaria_palabra = ' '.join(get_binary(letra) for letra in palabra)
+    resultados.append(f"Total: {representacion_binaria_palabra}")
+    return '\n'.join(resultados)
+
 
