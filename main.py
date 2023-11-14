@@ -1,4 +1,4 @@
-from operations import get_ascii, get_binary, get_results
+from operations import get_results
 import sys
 menu = int(input("Menu\n1. Character\n2. Word"))
 
