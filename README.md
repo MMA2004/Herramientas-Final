@@ -19,6 +19,8 @@
 |git checkout -b |para crear y moverse a una branch nueva|
 |git push origin (nombre de la branch)|para subir los cambios a la nube|
 
+---
+
 
 ### Explicacion primer codigo en Python y su funcionamiento.
 | Código Python                                  | Explicación                                    |
@@ -36,6 +38,8 @@
 | `print('Results\n========')`                   | Imprime un encabezado para los resultados.      |
 | `results = get_results(word)`                  | Llama a la función `get_results` con la palabra ingresada por el usuario y almacena los resultados en la variable `results`.|
 | `print('Total: {0}'.format(results))`          | Imprime el total de los resultados.             |
+
+---
 
 ### Explicacion segundo codigo en Python y su  funcionamiento.
 | Código Python                                  | Explicación                                    |
